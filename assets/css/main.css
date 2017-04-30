@@ -1,0 +1,25 @@
+.main-section{
+  width: 60%;
+}
+
+.prim-data, .job-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left, .right{
+  width: 21rem;
+}
+
+.input-box{
+  margin: 1rem;
+}
+.input-box input{
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+
+.input-box select, .input-box input[type="number"]{
+  border: 2px solid gray;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Kunan</title>
+</head>
+<body>
+  <section class="info">
+    <h3>Antes de iniciar la inscripción debes leer las <span>bases del conscurso</span></h3>
+    <h3><strong>Nota:</strong>Al finalizar el formulario encontrarás el ícono GUARDAR, el cual permitirá que puedas guardar la información ingresada si no culminaste el formulario dándote la posibilidad de entrar cuando necesites concretar y/o editar antes de elegir el ícono ENVIAR.</h3>
+  </section>
+  <section class="main-section">
+    <h2>Formulario de contacto</h2>
+    <form action="" method="post" class="repre-data">
+      <section class="prim-data">
+        <div class="left">
+          <div class="input-box">
+            <label for="last-name">Apellidos</label><br>
+            <input type="text" id="last-name" placeholder="Ingresa tus apellidos">
+          </div>
+          <div class="input-box">
+            <label for="birth-date">Fecha de nacimiento(dd/mm/yyyy)</label><br>
+            <input type="text" id="birth-date" placeholder="Ingresa fecha de nacimiento">
+          </div>
+          <div class="input-box">
+            <label for="birth-place">Lugar de nacimiento</label><br>
+            <select id="birth-place">
+              <option value="" hidden>Selecciona</option>
+              <option value="arequipa">Arequipa</option>
+              <option value="ancash">Áncash</option>
+              <option value="apurimac">Apurímac</option>
+              <option value="arequipa">Arequipa</option>
+              <option value="ayacucho">Ayacucho</option>
+              <option value="cajamarca">Cajamarca</option>
+              <option value="callao">Callao</option>
+              <option value="cuzco">Cuzco</option>
+              <option value="huancavelica">Huancavelica</option>
+              <option value="huanuco">Huánuco</option>
+              <option value="ica">Ica</option>
+              <option value="junin">Junín</option>
+              <option value="la libertad">La Libertad</option>
+              <option value="lambayeque">Lambayeque</option>
+              <option value="lima">Lima</option>
+              <option value="loreto">Loreto</option>
+              <option value="madre de dios">Madre de Dios</option>
+              <option value="moquegua">Moquegua</option>
+              <option value="pasco">Pasco</option>
+              <option value="piura">Piura</option>
+              <option value="puno">Puno</option>
+              <option value="san martin">San Martín</option>
+              <option value="tacna">Tacna</option>
+              <option value="tumbes">Tumbes</option>
+              <option value="ucayali">Ucayali</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <label>Sexo</label><br>
+            <input type="checkbox" id="male"><label for="male">Masculino</label><br>
+            <input type="checkbox" id="female"><label for="female">Femenino</label>
+          </div>
+        </div>
+        <div class="right">
+          <div class="input-box">
+            <label for="name">Nombres</label><br>
+            <input type="text" id="name" placeholder="Ingresa tus nombres">
+          </div>
+          <div class="input-box">
+            <label for="year-old">Edad</label><br>
+            <input type="text" id="year-old" onfocus="(this.type='number')" placeholder="Ingresa edad">
+          </div>
+          <div class="input-box">
+            <label for="region">Región de residencia</label><br>
+            <select id="region">
+              <option value="" hidden>Selecciona</option>
+              <option value="arequipa">Arequipa</option>
+              <option value="ancash">Áncash</option>
+              <option value="apurimac">Apurímac</option>
+              <option value="arequipa">Arequipa</option>
+              <option value="ayacucho">Ayacucho</option>
+              <option value="cajamarca">Cajamarca</option>
+              <option value="callao">Callao</option>
+              <option value="cuzco">Cuzco</option>
+              <option value="huancavelica">Huancavelica</option>
+              <option value="huanuco">Huánuco</option>
+              <option value="ica">Ica</option>
+              <option value="junin">Junín</option>
+              <option value="la libertad">La Libertad</option>
+              <option value="lambayeque">Lambayeque</option>
+              <option value="lima">Lima</option>
+              <option value="loreto">Loreto</option>
+              <option value="madre de dios">Madre de Dios</option>
+              <option value="moquegua">Moquegua</option>
+              <option value="pasco">Pasco</option>
+              <option value="piura">Piura</option>
+              <option value="puno">Puno</option>
+              <option value="san martin">San Martín</option>
+              <option value="tacna">Tacna</option>
+              <option value="tumbes">Tumbes</option>
+              <option value="ucayali">Ucayali</option>
+            </select>
+          </div>
+
+        </div>
+      </section>
+      <section class="job-info">
+        <div class="left">
+          <div class="input-box">
+            <label for="job">Profesión</label><br>
+            <input type="text" id="job" placeholder="Ingresa tu profesión">
+          </div>
+          <div class="input-box">
+            <label for="time-in-cargo">Tiempo en dicho cargo en cantidad de meses</label><br>
+            <input type="text" id="time-in-months">
+          </div>
+        </div>
+        <div class="right">
+          <div class="input-box">
+            <label for="cargo">Cargo en la organización</label><br>
+            <input type="text" id="cargo" placeholder="Ingresa cargo">
+          </div>
+          <div class="input-box">
+            <label for="time-in-org">Tiempo en la organización</label><br>
+            <input type="text" id="time-in-org">
+          </div>
+        </div>
+      </section>
+    </form>
+  </section>
+  <section class="entidad-data">
+    <h2>Datos de la entidad postulante</h2>
+    <form action="" method="post" class="form-entidad">
+      <section class="left">
+        <div class="input-box">
+          <label for="name-ent">Nombre de la entidad</label>
+          <input type="text" id="name-ent" placeholder="Ingresa nombre de la entidad">
+        </div>
+      </section>
+      <section class="right"></section>
+    </form>
+  </section>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
