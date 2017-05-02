@@ -144,8 +144,7 @@
           </div>
           <div class="input-box">
             <label for="slct-org-type">Tipo de organización</label><br>
-            <select id="slct-org-type">
-              <option value="" hidden>Selecciona</option>
+            <select id="slct-org-type" size="4">
               <option value="ong">ONG</option>
               <option value="fundaciones">Fundaciones</option>
               <option value="asociacion civil">Asociación Civil</option>
@@ -258,7 +257,33 @@
         <textarea rows="8" placeholder="Máximo 100 palabras"></textarea>
       </div>
     </section>
+    <section class="sec-send">
+      <h2>Enviar la postulación para su revisión</h2>
+      <p>He llenado todos los campos del formulario y quiero enviarla para concretar la postulación con éxito.<strong>Recuerda: Al marcar este campo tu postulación no podrá ser editada nuevamente.</strong></p>
+      <input type="checkbox" id="check-send">
+      <label for="check-send">Quiero enviar mi aplicación</label>
+    </section>
+    <section class="sec-save-button">
+        <button type="button" id="btn-save">Guardar</button>
+    </section>
   </section>
+  <footer class="footer">
+     <section class="nav-footer">
+        <div class="left-foot">
+          <a href="#"><h3>Kunan</h3></a>
+          <a href="#" class="block">Premio</a>
+          <a href="#" class="block">Comunidad</a>
+          <a href="#" class="block">Comunicación</a>
+      </div>
+      <div class="right-foot">
+          <h3>Síguenos</h3>
+          <a href="#"><img class="social-icon" src="assets/image/facebook.png" alt="facebook"></a>
+          <a href="#"><img class="social-icon" src="assets/image/instagram.png" alt="instagram"></a>
+          <a href="#"><img class="social-icon" src="assets/image/twitter.png" alt="twitter" width="29"></a>
+          <a href="#"><img class="social-icon" src="assets/image/youtube.png" alt="youtube" width="29" height="29"></a>
+      </div>
+     </section>
+  </footer>
   <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
