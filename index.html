@@ -8,138 +8,256 @@
   <title>Kunan</title>
 </head>
 <body>
-  <section class="info">
-    <h3>Antes de iniciar la inscripción debes leer las <span>bases del conscurso</span></h3>
-    <h3><strong>Nota:</strong>Al finalizar el formulario encontrarás el ícono GUARDAR, el cual permitirá que puedas guardar la información ingresada si no culminaste el formulario dándote la posibilidad de entrar cuando necesites concretar y/o editar antes de elegir el ícono ENVIAR.</h3>
-  </section>
-  <section class="main-section">
-    <h2>Formulario de contacto</h2>
-    <form action="" method="post" class="repre-data">
-      <section class="prim-data">
-        <div class="left">
-          <div class="input-box">
-            <label for="last-name">Apellidos</label><br>
-            <input type="text" id="last-name" placeholder="Ingresa tus apellidos">
+  <section class="main-container">
+    <section class="info">
+      <h3>Antes de iniciar la inscripción debes leer las <span>bases del conscurso</span></h3>
+      <h3><strong>Nota:</strong>Al finalizar el formulario encontrarás el ícono GUARDAR, el cual permitirá que puedas guardar la información ingresada si no culminaste el formulario dándote la posibilidad de entrar cuando necesites concretar y/o editar antes de elegir el ícono ENVIAR.</h3>
+    </section>
+    <section class="main-section">
+      <h2>Formulario de contacto</h2>
+      <form action="" method="post" class="repre-data">
+        <section class="prim-data">
+          <div class="left">
+            <div class="input-box">
+              <label for="last-name">Apellidos</label><br>
+              <input type="text" id="last-name" placeholder="Ingresa tus apellidos">
+            </div>
+            <div class="input-box">
+              <label for="birth-date">Fecha de nacimiento(dd/mm/yyyy)</label><br>
+              <input type="text" id="birth-date" placeholder="Ingresa fecha de nacimiento">
+            </div>
+            <div class="input-box">
+              <label for="birth-place">Lugar de nacimiento</label><br>
+              <select id="birth-place">
+                <option value="" hidden>Selecciona</option>
+                <option value="arequipa">Arequipa</option>
+                <option value="ancash">Áncash</option>
+                <option value="apurimac">Apurímac</option>
+                <option value="arequipa">Arequipa</option>
+                <option value="ayacucho">Ayacucho</option>
+                <option value="cajamarca">Cajamarca</option>
+                <option value="callao">Callao</option>
+                <option value="cuzco">Cuzco</option>
+                <option value="huancavelica">Huancavelica</option>
+                <option value="huanuco">Huánuco</option>
+                <option value="ica">Ica</option>
+                <option value="junin">Junín</option>
+                <option value="la libertad">La Libertad</option>
+                <option value="lambayeque">Lambayeque</option>
+                <option value="lima">Lima</option>
+                <option value="loreto">Loreto</option>
+                <option value="madre de dios">Madre de Dios</option>
+                <option value="moquegua">Moquegua</option>
+                <option value="pasco">Pasco</option>
+                <option value="piura">Piura</option>
+                <option value="puno">Puno</option>
+                <option value="san martin">San Martín</option>
+                <option value="tacna">Tacna</option>
+                <option value="tumbes">Tumbes</option>
+                <option value="ucayali">Ucayali</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <label>Sexo</label><br>
+              <input type="checkbox" id="male"><label for="male">Masculino</label><br>
+              <input type="checkbox" id="female"><label for="female">Femenino</label>
+            </div>
           </div>
-          <div class="input-box">
-            <label for="birth-date">Fecha de nacimiento(dd/mm/yyyy)</label><br>
-            <input type="text" id="birth-date" placeholder="Ingresa fecha de nacimiento">
-          </div>
-          <div class="input-box">
-            <label for="birth-place">Lugar de nacimiento</label><br>
-            <select id="birth-place">
-              <option value="" hidden>Selecciona</option>
-              <option value="arequipa">Arequipa</option>
-              <option value="ancash">Áncash</option>
-              <option value="apurimac">Apurímac</option>
-              <option value="arequipa">Arequipa</option>
-              <option value="ayacucho">Ayacucho</option>
-              <option value="cajamarca">Cajamarca</option>
-              <option value="callao">Callao</option>
-              <option value="cuzco">Cuzco</option>
-              <option value="huancavelica">Huancavelica</option>
-              <option value="huanuco">Huánuco</option>
-              <option value="ica">Ica</option>
-              <option value="junin">Junín</option>
-              <option value="la libertad">La Libertad</option>
-              <option value="lambayeque">Lambayeque</option>
-              <option value="lima">Lima</option>
-              <option value="loreto">Loreto</option>
-              <option value="madre de dios">Madre de Dios</option>
-              <option value="moquegua">Moquegua</option>
-              <option value="pasco">Pasco</option>
-              <option value="piura">Piura</option>
-              <option value="puno">Puno</option>
-              <option value="san martin">San Martín</option>
-              <option value="tacna">Tacna</option>
-              <option value="tumbes">Tumbes</option>
-              <option value="ucayali">Ucayali</option>
-            </select>
-          </div>
-          <div class="input-box">
-            <label>Sexo</label><br>
-            <input type="checkbox" id="male"><label for="male">Masculino</label><br>
-            <input type="checkbox" id="female"><label for="female">Femenino</label>
-          </div>
-        </div>
-        <div class="right">
-          <div class="input-box">
-            <label for="name">Nombres</label><br>
-            <input type="text" id="name" placeholder="Ingresa tus nombres">
-          </div>
-          <div class="input-box">
-            <label for="year-old">Edad</label><br>
-            <input type="text" id="year-old" onfocus="(this.type='number')" placeholder="Ingresa edad">
-          </div>
-          <div class="input-box">
-            <label for="region">Región de residencia</label><br>
-            <select id="region">
-              <option value="" hidden>Selecciona</option>
-              <option value="arequipa">Arequipa</option>
-              <option value="ancash">Áncash</option>
-              <option value="apurimac">Apurímac</option>
-              <option value="arequipa">Arequipa</option>
-              <option value="ayacucho">Ayacucho</option>
-              <option value="cajamarca">Cajamarca</option>
-              <option value="callao">Callao</option>
-              <option value="cuzco">Cuzco</option>
-              <option value="huancavelica">Huancavelica</option>
-              <option value="huanuco">Huánuco</option>
-              <option value="ica">Ica</option>
-              <option value="junin">Junín</option>
-              <option value="la libertad">La Libertad</option>
-              <option value="lambayeque">Lambayeque</option>
-              <option value="lima">Lima</option>
-              <option value="loreto">Loreto</option>
-              <option value="madre de dios">Madre de Dios</option>
-              <option value="moquegua">Moquegua</option>
-              <option value="pasco">Pasco</option>
-              <option value="piura">Piura</option>
-              <option value="puno">Puno</option>
-              <option value="san martin">San Martín</option>
-              <option value="tacna">Tacna</option>
-              <option value="tumbes">Tumbes</option>
-              <option value="ucayali">Ucayali</option>
-            </select>
-          </div>
+          <div class="right">
+            <div class="input-box">
+              <label for="name">Nombres</label><br>
+              <input type="text" id="name" placeholder="Ingresa tus nombres">
+            </div>
+            <div class="input-box">
+              <label for="year-old">Edad</label><br>
+              <input type="text" id="year-old" onfocus="(this.type='number')" placeholder="Ingresa edad">
+            </div>
+            <div class="input-box">
+              <label for="region">Región de residencia</label><br>
+              <select id="region">
+                <option value="" hidden>Selecciona</option>
+                <option value="arequipa">Arequipa</option>
+                <option value="ancash">Áncash</option>
+                <option value="apurimac">Apurímac</option>
+                <option value="arequipa">Arequipa</option>
+                <option value="ayacucho">Ayacucho</option>
+                <option value="cajamarca">Cajamarca</option>
+                <option value="callao">Callao</option>
+                <option value="cuzco">Cuzco</option>
+                <option value="huancavelica">Huancavelica</option>
+                <option value="huanuco">Huánuco</option>
+                <option value="ica">Ica</option>
+                <option value="junin">Junín</option>
+                <option value="la libertad">La Libertad</option>
+                <option value="lambayeque">Lambayeque</option>
+                <option value="lima">Lima</option>
+                <option value="loreto">Loreto</option>
+                <option value="madre de dios">Madre de Dios</option>
+                <option value="moquegua">Moquegua</option>
+                <option value="pasco">Pasco</option>
+                <option value="piura">Piura</option>
+                <option value="puno">Puno</option>
+                <option value="san martin">San Martín</option>
+                <option value="tacna">Tacna</option>
+                <option value="tumbes">Tumbes</option>
+                <option value="ucayali">Ucayali</option>
+              </select>
+            </div>
 
-        </div>
-      </section>
-      <section class="job-info">
-        <div class="left">
+          </div>
+        </section>
+        <section class="job-info">
+          <div class="left">
+            <div class="input-box">
+              <label for="job">Profesión</label><br>
+              <input type="text" id="job" placeholder="Ingresa tu profesión">
+            </div>
+            <div class="input-box">
+              <label for="time-in-cargo">Tiempo en dicho cargo en cantidad de meses</label><br>
+              <input type="text" id="time-in-months">
+            </div>
+          </div>
+          <div class="right">
+            <div class="input-box">
+              <label for="cargo">Cargo en la organización</label><br>
+              <input type="text" id="cargo" placeholder="Ingresa cargo">
+            </div>
+            <div class="input-box">
+              <label for="time-in-org">Tiempo en la organización</label><br>
+              <input type="text" id="time-in-org">
+            </div>
+          </div>
+        </section>
+      </form>
+    </section>
+    <section class="entidad-data">
+      <h2>Datos de la entidad postulante</h2>
+      <form action="" method="post" class="form-entidad">
+        <section class="left">
           <div class="input-box">
-            <label for="job">Profesión</label><br>
-            <input type="text" id="job" placeholder="Ingresa tu profesión">
+            <label for="name-ent">Nombre de la entidad</label>
+            <input type="text" id="name-ent" placeholder="Ingresa nombre de la entidad">
           </div>
           <div class="input-box">
-            <label for="time-in-cargo">Tiempo en dicho cargo en cantidad de meses</label><br>
-            <input type="text" id="time-in-months">
-          </div>
-        </div>
-        <div class="right">
-          <div class="input-box">
-            <label for="cargo">Cargo en la organización</label><br>
-            <input type="text" id="cargo" placeholder="Ingresa cargo">
+            <label for="oper-date">¿Cuándo comenzaron a operar?(dd/mm/yyyy)</label><br>
+            <input type="text" id="oper-date" placeholder="Ingresa fecha de inicio">
           </div>
           <div class="input-box">
-            <label for="time-in-org">Tiempo en la organización</label><br>
-            <input type="text" id="time-in-org">
+            <label for="slct-org-type">Tipo de organización</label><br>
+            <select id="slct-org-type">
+              <option value="" hidden>Selecciona</option>
+              <option value="ong">ONG</option>
+              <option value="fundaciones">Fundaciones</option>
+              <option value="asociacion civil">Asociación Civil</option>
+              <option value="empresa">Empresa</option>
+              <option value="persona natural">Persona Natural</option>
+              <option value="otros">Otros</option>
+            </select>
           </div>
-        </div>
-      </section>
-    </form>
-  </section>
-  <section class="entidad-data">
-    <h2>Datos de la entidad postulante</h2>
-    <form action="" method="post" class="form-entidad">
-      <section class="left">
-        <div class="input-box">
-          <label for="name-ent">Nombre de la entidad</label>
-          <input type="text" id="name-ent" placeholder="Ingresa nombre de la entidad">
-        </div>
-      </section>
-      <section class="right"></section>
-    </form>
+          <div class="input-box">
+            <label for="txt-otros">Otros</label><br>
+            <input type="text" id="txt-otros">
+          </div>
+        </section>
+        <section class="right">
+          <p>Ámbito de intervención</p>
+          <p>¿Cuáles son las regiones, provincia y distritos donde se sitúan sus operaciones a lo largo de toda la cadena de negocio?</p>
+          <div id="chk-regiones" class="chk-region input-box">
+            <label>Regiones</label>
+          </div>
+          <div class="input-box">
+            <p>Indicar las provincias en las que intervienen tu emprendimiento respecto a las regiones marcadas anteriormente.</p>
+            <label for="txt-provincia">Provincia</label><br>
+            <input type="text" id="txt-provincia" placeholder="Ingresa nombre de provincia">
+          </div>
+          <div class="input-box">
+            <p>Indicar los distritos en las que intervienen tu emprendimiento respecto a las provincias marcadas anteriormente.</p>
+            <label for="txt-distrito">Distrito</label>
+            <input type="text" id="txt-distrito" placeholder="Ingresa nombre de distrito">
+          </div>
+        </section>
+        <section class="bottom">
+          <div class="left">
+            <div class="input-box">
+              <p class="required">¿Está inscrita en Registros Públicos?</p>
+              <input type="checkbox" id="check-reg-public-si">
+              <label for="check-reg-public-si">Si</label>
+              <input type="checkbox" id="check-reg-public-no">
+              <label for="check-reg-public-no">No</label>
+            </div>
+          </div>
+          <div class="right">
+            <p>Si responde "Si", responde las siguientes opciones.</p>
+            <div class="input-box">
+              <label for="txt-ruc">RUC</label>
+              <input type="text" id="txt-ruc" placeholder="Ingresa número de ruc">
+            </div>
+            <div class="input-box">
+              <label for="constitucion-date">¿Cuándo se constituyeron?(dd/mm/yyyy)</label>
+              <input type="text" id="constitucion-date" placeholder="Ingresa fecha de constitución" onfocus="(this.type='date')">
+            </div>
+          </div>
+        </section>
+      </form>
+    </section>
+    <section class="sec-strategic-info">
+      <h2>Información estratégica de la entidad postulante</h2>
+      <p>Esta información es confidencial y no será pública en ninguna etapa del proceso de evaluación.</p>
+      <div id="check-social-sector">
+        <label>¿Cuál es el sector de la problemática social que busca resolver su Organización? (Puede marcar más de una)</label>
+      </div>
+    </section>
+    <section class="sec-environment">
+      <h2>Conocimiento sobre el entorno y la problemática:</h2>
+      <div class="box-textarea">
+        <p><strong>Describa el principal problema social que busca resolver su organización.</strong></p>
+        <p>Recomendamos usar datos precisos y evidenciar citando estudios, investigaciones, publicaciones, etc del problema que plantea. (Máximo 80 palabras)</p>
+        <textarea rows="8" placeholder="Máximo 80 palabras"></textarea>
+      </div>
+      <div class="box-textarea">
+        <p>¿Cuál es el público objectivo directo e indirecto?(Máximo 20 palabras)</p>
+        <textarea rows="8" placeholder="Máximo 20 palabras"></textarea>
+      </div>
+    </section>
+    <section class="sec-value-proposal">
+      <h2>Claridad sobre la propuesta de valor</h2>
+      <div class="box-textarea">
+        <p>Enuncie cómo su organización aporta a la solución del problema y qué beneficios concretos ofrece a sus públicos objetivo. (Máximo 60 palabras)</p>
+        <textarea rows="10" placeholder="Máximo 60 palabras"></textarea>
+      </div>
+    </section>
+    <section class="sec-org-works">
+      <h2>Detalle cómo funciona su organización considerando toda la cadena del negocio.</h2>
+      <p>Ejemplo:</p>
+      <p><em>“Mi modelo consiste en convocar mujeres recicladoras entre 20 y 45 años. Las capacito en artesanía elaborada a base de plásticos. Luego, las contrato por 4 horas diarias de trabajo para elaborar los productos. Empezamos la venta on-line de productos. Cuando completamos el capital de 3mil soles de utilidad por artesana, pasamos a un contrato de tiempo completo y las recicladoras se convierten en ser artistas y empresarias. A partir de este momento, el 25% de las ventas de sus productos se reinvierten en nuestra organización, para sostenerla y convocar a una nueva promoción de recicladoras”.</em></p>
+      <div class="box-textarea">
+        <p>Efectividad del modelo. (Máximo 100 palabras)</p>
+        <textarea rows="8" placeholder="Máximo 100 palabras"></textarea>
+      </div>
+    </section>
+    <section class="sec-services-products">
+      <h2>Detalle la cualidad de los servicios o productos que ofrece y cómo destacan en el mercado.</h2>
+      <p><em>En base al ejemplo anterior: “Mi organización ofrece el servicio de capacitación a recicladoras con un método efectivo que las prepara en sólo 3 meses. También ofrezco artesanía hecha a base de plástico que se distinguen por usar diseños contemporáneos en empaques también reusables”.</em></p>
+      <div class="box-textarea">
+        <p>Calidad del servicio y/o producto. (Máximo 60 palabras)</p>
+        <textarea rows="8" placeholder="Máximo 60 palabras"></textarea>
+      </div>
+    </section>
+    <section class="sec-impact social">
+      <h2>¿Cómo miden el impacto social de su iniciativa?</h2>
+      <p>Describa el mecanismo, los 2 principales indicadores y la medición actual de los mismos.</p>
+      <div class="box-textarea">
+        <p>Impacto social. (Máximo 100 palabras)</p>
+        <textarea rows="8"placeholder="Máximo 100 palabras"></textarea>
+      </div>
+    </section>
+    <section class="sec-innovation">
+      <h2>Exponga cómo su organización innova, qué procesos y elementos de su modelo son diferentes y competitivos en el mercado.</h2>
+      <div class="box-textarea">
+        <p>Innovación. (Máximo 100 palabras)</p>
+        <textarea rows="8" placeholder="Máximo 100 palabras"></textarea>
+      </div>
+    </section>
   </section>
   <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
