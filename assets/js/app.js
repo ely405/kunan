@@ -24,3 +24,16 @@ window.addEventListener("load", function(){
     createInputCheck(checkRegiones, "div-check-input", divChkRegiones);
     createInputCheck(checkSocialSector, "div-check-input", divSocialSector);
 });
+
+var lastName = document.getElementById("last-name");
+var birthDate = document.getElementById("birth-date");
+var birthPlace = document.getElementById("birth-place");
+var male = document.getElementById("male");
+var female = document.getElementById("female");
+var name = document.getElementById("name");
+var yearOld = document.getElementById("year-old");
+var region = document.getElementById("region");
+var job = document.getElementById("job");
+var timeInMonths = document.getElementById("time-in-months");
+var cargo = document.getElementById("cargo");
+var timeInOrg = document.getElementById("time-in-org");
