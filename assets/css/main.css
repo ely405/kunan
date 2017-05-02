@@ -17,7 +17,7 @@
 }
 
 .main-container{
-  width: 60%;
+    width: 70%;
     position: relative;
     left: 0;
     right: 0;
@@ -50,4 +50,26 @@
 
 textarea{
   width: 100%;
+}
+
+.sec-save-button{
+  text-align: center;
+  position: relative;
+  height: 10rem;
+}
+
+.sec-save-button button{
+  background-color: #EA6616;
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.sec-save-button p{
+  position: absolute;
+  right: 0;
+  bottom: 5rem;
 }

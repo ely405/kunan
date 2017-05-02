@@ -20,11 +20,11 @@
           <div class="left">
             <div class="input-box">
               <label for="last-name">Apellidos</label><br>
-              <input type="text" id="last-name" placeholder="Ingresa tus apellidos">
+              <input type="text" id="last-name" placeholder="Ingresa tus apellidos" class="letter">
             </div>
             <div class="input-box">
               <label for="birth-date">Fecha de nacimiento(dd/mm/yyyy)</label><br>
-              <input type="text" id="birth-date" placeholder="Ingresa fecha de nacimiento">
+              <input type="text" id="birth-date" placeholder="Ingresa fecha de nacimiento" onfocus="(this.type='date')">
             </div>
             <div class="input-box">
               <label for="birth-place">Lugar de nacimiento</label><br>
@@ -66,11 +66,11 @@
           <div class="right">
             <div class="input-box">
               <label for="name">Nombres</label><br>
-              <input type="text" id="name" placeholder="Ingresa tus nombres">
+              <input type="text" id="name" placeholder="Ingresa tus nombres" class="letter">
             </div>
             <div class="input-box">
               <label for="year-old">Edad</label><br>
-              <input type="text" id="year-old" onfocus="(this.type='number')" placeholder="Ingresa edad">
+              <input type="text" id="year-old" onfocus="(this.type='number')" placeholder="Ingresa edad" min="1" max="99">
             </div>
             <div class="input-box">
               <label for="region">Región de residencia</label><br>
@@ -109,17 +109,17 @@
           <div class="left">
             <div class="input-box">
               <label for="job">Profesión</label><br>
-              <input type="text" id="job" placeholder="Ingresa tu profesión">
+              <input type="text" id="job" placeholder="Ingresa tu profesión" class="letter">
             </div>
             <div class="input-box">
               <label for="time-in-cargo">Tiempo en dicho cargo en cantidad de meses</label><br>
-              <input type="text" id="time-in-months">
+              <input type="text" id="time-in-months" onfocus="(this.type='number')">
             </div>
           </div>
           <div class="right">
             <div class="input-box">
               <label for="cargo">Cargo en la organización</label><br>
-              <input type="text" id="cargo" placeholder="Ingresa cargo">
+              <input type="text" id="cargo" placeholder="Ingresa cargo" class="letter">
             </div>
             <div class="input-box">
               <label for="time-in-org">Tiempo en la organización</label><br>
@@ -305,6 +305,7 @@
     </section>
     <section class="sec-save-button">
       <button type="button" id="btn-save">Guardar</button>
+      <p>Encuentra información en el <span class="c-orange">glosario de términos</span></p>
     </section>
   </section>
   <footer class="footer">
