@@ -12,6 +12,10 @@
     display: block;
 }
 
+.p-relative{
+  position: relative;
+}
+
 .c-orange{
   color: #F29C69;
 }
@@ -37,6 +41,7 @@
 
 .input-box{
   margin: 1rem;
+  position: relative;
 }
 .input-box input{
   border: none;
@@ -46,6 +51,28 @@
 
 .input-box select, .input-box input[type="number"]{
   border: 2px solid #b5b6b7;
+}
+
+.tooltiptext{
+    background-color: rgba(242, 156, 105, 0.7);
+    padding: 2px;
+    position: absolute;
+    left: 58%;
+    top: 8px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.tooltiptext::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid rgba(242, 156, 105, 0.7);
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    right: 100%;
+    top: 10px;
 }
 
 textarea{
