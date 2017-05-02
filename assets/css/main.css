@@ -1,24 +1,30 @@
 @import url("footer.css");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
 
 .block{
     display: block;
 }
 
+.c-orange{
+  color: #F29C69;
+}
+
 .main-container{
-  width: 80%;
+  width: 60%;
     position: relative;
     left: 0;
     right: 0;
     margin: auto;
 }
 
-.prim-data, .job-info, .form-entidad, .bottom{
+.prim-data, .job-info, .form-entidad, .bottom, .form-rrhh{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -34,12 +40,12 @@
 }
 .input-box input{
   border: none;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #b5b6b7;
   outline: none;
 }
 
 .input-box select, .input-box input[type="number"]{
-  border: 2px solid gray;
+  border: 2px solid #b5b6b7;
 }
 
 textarea{

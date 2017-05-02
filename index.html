@@ -10,8 +10,8 @@
 <body>
   <section class="main-container">
     <section class="info">
-      <h3>Antes de iniciar la inscripción debes leer las <span>bases del conscurso</span></h3>
-      <h3><strong>Nota:</strong>Al finalizar el formulario encontrarás el ícono GUARDAR, el cual permitirá que puedas guardar la información ingresada si no culminaste el formulario dándote la posibilidad de entrar cuando necesites concretar y/o editar antes de elegir el ícono ENVIAR.</h3>
+      <p>Antes de iniciar la inscripción debes leer las <span class="c-orange">bases del conscurso</span></p>
+      <p><strong>Nota:</strong>Al finalizar el formulario encontrarás el ícono GUARDAR, el cual permitirá que puedas guardar la información ingresada si no culminaste el formulario dándote la posibilidad de entrar cuando necesites concretar y/o editar antes de elegir el ícono ENVIAR.</p>
     </section>
     <section class="main-section">
       <h2>Formulario de contacto</h2>
@@ -103,7 +103,6 @@
                 <option value="ucayali">Ucayali</option>
               </select>
             </div>
-
           </div>
         </section>
         <section class="job-info">
@@ -257,36 +256,47 @@
         <textarea rows="8" placeholder="Máximo 100 palabras"></textarea>
       </div>
     </section>
-    <secion class="rrhh">
+    <section class="sec-rrhh">
+      <h2>Recursos Humanos</h2>
       <p>Pueden indicar "0" si no tienen una cantidad.</p>
-      <div class="input-box">
-        <label for="">¿Cúanta gente se encarga de dirigir y gestionar la iniciativa?</label>
-        <input type="text">
-      </div>
-      <div class="input-box">
-        <label for="">Cantidad de Remunerados a tiempo parcial.</label>
-        <input type="text">
-      </div>
-      <div class="input-box">
-        <label for="">Cantidad de remunerados a tiempo completo.</label>
-        <input type="text">
-      </div>
-      <div class="input-box">
-        <label for="">Cantidad de talento voluntario.</label>
-        <input type="text">
-      </div>
-      <div class="input-box">
-        <label for="">Otro</label>
-        <input type="text">
-      </div>
-      <div class="input-box">
-        <label for="">Si llenas otro ingresa la cantidad.</label>
-        <input type="text">
-      </div>
-
-      <p>Aliados Estratégicos</p>
-      <label for="">¿Cuáles son lasorganizaciones aliadas?</label>
-    </secion>
+      <form action="" class="form-rrhh">
+        <div class="left">
+          <div class="input-box">
+            <label for="txt-gestionar">¿Cúanta gente se encarga de dirigir y gestionar la iniciativa?</label> <br>
+            <input type="text" id="txt-gestionar">
+          </div>
+          <div class="input-box">
+            <label for="txt-t-parcial">Cantidad de Remunerados a tiempo parcial.</label><br>
+            <input type="text" id="txt-t-parcial">
+          </div>
+          <div class="input-box">
+            <label for="txt-t-completo">Cantidad de remunerados a tiempo completo.</label><br>
+            <input type="text" id="txt-t-completo">
+          </div>
+        </div>
+        <div class="right">
+          <div class="input-box">
+            <label for="txt-volumtario">Cantidad de talento voluntario.</label><br>
+            <input type="text" id="txt-volumtario">
+          </div>
+          <div class="input-box">
+            <label for="txt-otro">Otro</label><br>
+            <input type="text" id="txt-otro">
+          </div>
+          <div class="input-box">
+            <label for="txt-cant-otro">Si llenas otro ingresa la cantidad.</label><br>
+            <input type="text" id="txt-cant-otro">
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Aliados Estratégicos</p>
+          <div class="box-textarea">
+            <label for="">¿Cuáles son las organizaciones aliadas de su proyecto y cómo se vinculan a su modelo? (Separar los aliados por una coma " , ")</label>
+            <textarea rows="8" id="txtar-allied-org" placeholder="Separar los aliados por una coma"></textarea>
+          </div>
+        </div>
+      </form>
+    </section>
     <section class="sec-send">
       <h2>Enviar la postulación para su revisión</h2>
       <p>He llenado todos los campos del formulario y quiero enviarla para concretar la postulación con éxito.<strong>Recuerda: Al marcar este campo tu postulación no podrá ser editada nuevamente.</strong></p>
@@ -294,25 +304,25 @@
       <label for="check-send">Quiero enviar mi aplicación</label>
     </section>
     <section class="sec-save-button">
-        <button type="button" id="btn-save">Guardar</button>
+      <button type="button" id="btn-save">Guardar</button>
     </section>
   </section>
   <footer class="footer">
-     <section class="nav-footer">
-        <div class="left-foot">
-          <a href="#"><h3>Kunan</h3></a>
-          <a href="#" class="block">Premio</a>
-          <a href="#" class="block">Comunidad</a>
-          <a href="#" class="block">Comunicación</a>
+    <section class="nav-footer">
+      <div class="left-foot">
+        <a href="#"><h3>Kunan</h3></a>
+        <a href="#" class="block">Premio</a>
+        <a href="#" class="block">Comunidad</a>
+        <a href="#" class="block">Comunicación</a>
       </div>
       <div class="right-foot">
-          <h3>Síguenos</h3>
-          <a href="#"><img class="social-icon" src="assets/image/facebook.png" alt="facebook"></a>
-          <a href="#"><img class="social-icon" src="assets/image/instagram.png" alt="instagram"></a>
-          <a href="#"><img class="social-icon" src="assets/image/twitter.png" alt="twitter" width="29"></a>
-          <a href="#"><img class="social-icon" src="assets/image/youtube.png" alt="youtube" width="29" height="29"></a>
+        <h3>Síguenos</h3>
+        <a href="#"><img class="social-icon" src="assets/image/facebook.png" alt="facebook"></a>
+        <a href="#"><img class="social-icon" src="assets/image/instagram.png" alt="instagram"></a>
+        <a href="#"><img class="social-icon" src="assets/image/twitter.png" alt="twitter" width="29"></a>
+        <a href="#"><img class="social-icon" src="assets/image/youtube.png" alt="youtube" width="29" height="29"></a>
       </div>
-     </section>
+    </section>
   </footer>
   <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
